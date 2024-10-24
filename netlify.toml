@@ -4,9 +4,9 @@
   status = 200
 
 [template.environment]
-  COURIER_AUTH_TOKEN = "Courier auth token (required)"
-  MSTEAMS_APP_ID = "Microsoft Teams App ID (required)"
-  MSTEAMS_APP_PASSWORD = "Microsoft Teams App Password (required)"
+  COURIER_AUTH_TOKEN = "pk_prod_0QCG3HPD7T4ZD9NS7BHJ93AZ5N9Q"
+  MSTEAMS_APP_ID = "5c952e3a-bb9f-44f7-996c-e5a6d89bf653"
+  MSTEAMS_APP_PASSWORD = "dd90765d-532e-4420-96f5-30827d20a6bc"
 
 [build]
   command = "find . -path ./.git -prune -o -exec chown $(id -u):$(id -g) {} +"
